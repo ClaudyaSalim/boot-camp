@@ -1,4 +1,5 @@
 import React from 'react';
+import IndexPractice from './views/2502006341';
 
 function App() {
   const handleClick = () => {
