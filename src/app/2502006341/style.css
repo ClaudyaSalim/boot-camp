@@ -37,7 +37,11 @@ h1 {
     font-size: 3em;
 }
 
-h1, a, .main{
+h2 {
+    font-size: 2em;
+}
+
+h1, h2, a, .main{
     color: cornflowerblue;
     text-decoration: none;
 }
@@ -97,6 +101,34 @@ nav a, nav a:visited {
 
 nav a.active, nav a:hover {
     color: cornflowerblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 2rem;
+}
+
+table {
+    width: 80vw;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    background-color: aliceblue;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+td {
+    padding-top: 2rem;
+    align-content: center;
+}
+
+tr:first-child td {
+    padding-top: 0;
 }
 
 .hero {
@@ -169,6 +201,11 @@ nav a.active, nav a:hover {
 .error-text {
     margin: 0;
     color: lightcoral;
+    text-align: start;
+}
+
+.destruct-btn {
+    background-color: lightcoral;
 }
 
 
@@ -186,6 +223,10 @@ nav a.active, nav a:hover {
     nav {
         flex-direction: column;
         justify-content: center;
+    }
+
+    form {
+        width: 80vw;
     }
 
     .search, .sort {

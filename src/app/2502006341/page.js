@@ -19,6 +19,10 @@ export default function Home(){
                 <h3>Session 9 - Firebase + Next.js Assignment</h3>
                 <Link href="/2502006341/asg9-firebase">To the page!</Link>
             </div>
+            <div className="card">
+                <h3>Session 10 - Authentication, Authorization, and Route Protection</h3>
+                <Link href="/2502006341/asg10/assignment/10">To the page!</Link>
+            </div>
         </div>
     </div>
 }
