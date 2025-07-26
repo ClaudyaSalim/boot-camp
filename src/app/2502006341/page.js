@@ -23,6 +23,10 @@ export default function Home(){
                 <h3>Session 10 - Authentication, Authorization, and Route Protection</h3>
                 <Link href="/2502006341/asg10/assignment/10">To the page!</Link>
             </div>
+            <div className="card">
+                <h3>Session 11 - Task Management App</h3>
+                <Link href="/2502006341/asg11">To the page!</Link>
+            </div>
         </div>
     </div>
 }
