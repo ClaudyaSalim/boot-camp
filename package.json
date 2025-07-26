@@ -2,7 +2,6 @@
   "name": "boot-camp",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,11 +9,14 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@types/jest": "^30.0.0",
     "@vitejs/plugin-react": "^4.5.2",
+    "babel-jest": "^30.0.5",
     "jest": "^30.0.5",
     "jest-environment-jsdom": "^30.0.5",
     "ts-node": "^10.9.2",

@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom'
-import { render, screen } from "@testing-library/react"
+const { render, screen } = require('@testing-library/react')
 import Main from '../page'
 import { ThemeProvider } from '../context/ThemeContext'
 
